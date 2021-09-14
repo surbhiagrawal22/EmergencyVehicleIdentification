@@ -13,7 +13,7 @@ st.write("""
 # Emergency vehicle Identification
 """)
 file = st.file_uploader("Please upload an vehicle image", type =["jpg","png"])
-import cv2
+
 from PIL import Image, ImageOps
 import numpy as np
 st.set_option('deprecation.showfileUploaderEncoding', False)
